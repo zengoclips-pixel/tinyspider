@@ -1,3 +1,3 @@
 @echo off
-echo oh hey you awesome pickle how is the poops
-timeout /t 10 >nul
+REM Create a file named hey.txt on the current user’s Desktop
+echo Positive aura for you! > "%USERPROFILE%\Desktop\hey.txt"
